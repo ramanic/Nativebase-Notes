@@ -54,7 +54,7 @@ const SignUpScreen = ({ navigation }) => {
         </Box>
         <Text marginTop="2">
           Already have an account ?{' '}
-          <Pressable Press={() => navigation.push('LoginScreen')}>
+          <Pressable onPress={() => navigation.push('LoginScreen')}>
             <Text color="primary.100">Log In.</Text>
           </Pressable>
         </Text>
