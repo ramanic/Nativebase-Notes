@@ -58,6 +58,7 @@ const CreateNote = ({ navigation }) => {
         value={body}
         onChangeText={(text) => setBody(text)}
         multiline={true}
+        height="100%"
         bold
       />
     </Box>
